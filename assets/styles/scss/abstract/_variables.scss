@@ -1,0 +1,27 @@
+// :root {
+//   --main-color: #393E46;
+//   --main-bg-color: #FAFAFA;
+// }
+
+// :root.dark {
+//   --main-color: #FAFAFA;
+//   --main-bg-color: #393E46;
+// }
+
+:root {
+
+--primary-text-pale-violet: hsl(276, 100%, 81%);
+--primary-text-moderate-violet: hsl(276, 55%, 52%);
+--primary-text-desaturated-dark-violet: hsl(271, 15%, 43%);
+--primary-text-grayish-blue: hsl(206, 6%, 79%);
+--primary-text-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+--primary-text-dark-grayish-violet: hsl(270, 7%, 64%);
+
+--gradients-light-magenta: hsl(293, 100%, 63%);
+--gradients-light-violet: hsl(264, 100%, 61%);
+
+--secondary-white: hsl(0, 0%, 100%);
+--secondary-light-grayish-violet: hsl(270, 20%, 96%);
+--secondary-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+--secondary-very-light-magenta: hsl(289, 100%, 72%);
+}
