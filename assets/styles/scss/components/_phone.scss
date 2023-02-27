@@ -1,0 +1,9 @@
+.phone {
+  width: calc(100% - 9rem);
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: .6rem solid var(--secondary-white);
+  border-radius: 1.75rem;
+  background-color: var(--secondary-light-grayish-violet);
+  font-size: .5rem;
+}

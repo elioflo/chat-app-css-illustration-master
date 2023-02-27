@@ -327,6 +327,78 @@ template {
 
 .container {
   font-family: "Rubik", sans-serif;
+  background-color: var(--secondary-light-grayish-violet);
+}
+
+.phone {
+  width: calc(100% - 9rem);
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 0.6rem solid var(--secondary-white);
+  border-radius: 1.75rem;
+  background-color: var(--secondary-light-grayish-violet);
+  font-size: 0.5rem;
+}
+
+.contact {
+  --border-radius: 1.25rem;
+  background: linear-gradient(to right, var(--gradients-light-violet), var(--gradients-light-magenta));
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  padding: 1rem;
+  color: var(--secondary-white);
+}
+.contact__name {
+  margin: 0;
+}
+.contact__state {
+  margin: 0;
+}
+
+.message {
+  background-color: var(--bg-color, black);
+  color: var(--text-color, white);
+  max-width: 50%;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  float: var(--direction, none);
+  margin: 0.25rem 0.5rem;
+  clear: both;
+}
+.message--left {
+  --text-color: var(--primary-text-moderate-violet);
+  --bg-color: var(--primary-text-dark-grayish-violet);
+  --direction: left;
+  border-bottom-left-radius: 0.25rem;
+}
+.message--right {
+  --text-color: var(--primary-text-desaturated-dark-violet);
+  --bg-color: var(--secondary-white);
+  --direction: right;
+  border-bottom-right-radius: 0.25rem;
+}
+.message__pics {
+  display: flex;
+  clear: both;
+  float: right;
+}
+.message__pic {
+  --side: 2.5rem;
+  width: var(--side);
+  height: var(--side);
+  border-radius: 0.75rem;
+  margin: 1rem 0.2rem 0.5rem 0.2rem;
+}
+
+.input {
+  background-color: var(--secondary-white);
+  padding: 0.75rem 0;
+  padding-left: 1.25rem;
+  width: calc(100% - 2.25rem);
+  margin: 0.75rem auto;
+  border-radius: 1rem;
+  font-size: 0.55rem;
+  color: var(--primary-text-grayish-blue);
 }
 
 /*# sourceMappingURL=styles.css.map */

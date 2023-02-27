@@ -1,0 +1,39 @@
+.message {
+
+  background-color: var(--bg-color, black);
+  color: var(--text-color, white);
+  max-width: 50%;
+  border-radius: .75rem;
+  padding: .5rem;
+  float: var(--direction, none);
+  margin: .25rem .5rem;
+  clear: both;
+
+  &--left {
+    --text-color: var(--primary-text-moderate-violet);
+    --bg-color: var(--primary-text-dark-grayish-violet);
+    --direction: left;
+    border-bottom-left-radius: .25rem;
+  }
+  
+  &--right {
+    --text-color: var(--primary-text-desaturated-dark-violet);
+    --bg-color: var(--secondary-white);
+    --direction: right;
+    border-bottom-right-radius: .25rem;
+  }
+
+  &__pics {
+    display: flex;
+    clear: both;
+    float: right;
+  }
+
+  &__pic {
+    --side: 2.5rem;
+    width: var(--side);
+    height: var(--side);
+    border-radius: .75rem;
+    margin: 1rem .2rem .5rem .2rem;
+  }
+}
